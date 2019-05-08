@@ -5,12 +5,12 @@ import { RegisterComponent } from './register/register.component';
 
 
 const appRoutes: Routes = [
-    { path: '', redirectTo: "/login", pathMatch: 'full' },
+    // { path: '', redirectTo: "/login", pathMatch: 'full' },
     { path: 'login', component: LoginComponent },
     { path: 'register', component: RegisterComponent },
     {path:'home',component: HomeComponent},
     // otherwise redirect to login
-    { path: '**', redirectTo: '/login' }
+    // { path: '**', redirectTo: '/login' }
     
 ];
 
